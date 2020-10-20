@@ -5,7 +5,7 @@ $(document).ready(function() {
 		
 		$.ajax({
 			type: "POST",
-			url: "includex/handlers/ajax_submit_profile_post.php",
+			url: "includes/handlers/ajax_submit_profile_post.php",
 			data: $('form.profile_post').serialize(),
 			success: function(msg) {
 				$("#post_form").modal('hide');
