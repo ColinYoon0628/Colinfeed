@@ -5,7 +5,7 @@ $(document).ready(function() {
 		
 		$.ajax({
 			type: "POST",
-			url: "include/handlers/ajax_submit_profile_post.php",
+			url: "includex/handlers/ajax_submit_profile_post.php",
 			data: $('form.profile_post').serialize(),
 			success: function(msg) {
 				$("#post_form").modal('hide');
@@ -52,7 +52,7 @@ function getDropdownData(user, type) {
 		}
  
 		var ajaxreq = $.ajax({
-			url: "include/handlers/" + pageName,
+			url: "includes/handlers/" + pageName,
 			type: "POST",
 			data: "page=1&userLoggedIn=" + user,
 			cache: false,
