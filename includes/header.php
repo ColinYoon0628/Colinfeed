@@ -26,7 +26,7 @@ else {
 	<script src="assets/js/bootstrap.js"></script>
 	<script src="assets/js/bootbox.min.js"></script>
 	<script src="assets/js/project1.js"></script>
-	<script src="assets/js/jquery.jcrop.js"></script>
+	<script src="assets/js/jquery.Jcrop.js"></script>
 	<script src="assets/js/jcrop_bits.js"></script>
 
 
